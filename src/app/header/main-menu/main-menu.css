@@ -1,0 +1,40 @@
+/* .ekart-menu {
+    padding-top: 2vh;
+    padding: 1vh 1vh;
+    color: #36454F;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    width: 70%;
+    text-align: center;
+} */
+
+.ekart-menu {
+    display: flex;
+    justify-content: center;
+    /* center horizontally */
+    align-items: center;
+    /* align vertically */
+    gap: 2rem;
+    /* spacing between menu items */
+    white-space: nowrap;
+    /* 🚀 keep text like "New Arrival" on one line */
+    padding: 1vh;
+    color: #36454F;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    width: 100%;
+    /* let menu stretch fully */
+    margin: 0 auto;
+}
+
+.ekart-menu a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s;
+}
+
+.ekart-menu a:hover {
+    color: #007bff;
+}
